@@ -11,9 +11,9 @@
 
       <div class="fondo" :class="{ show: isMenuOpen }">
         <router-link to="/" exact-active-class="active">00 Home</router-link>
-        <router-link to="/destination" exact-active-class="active">01 Destination</router-link>
-        <router-link to="/crew" exact-active-class="active">02 Crew</router-link>
-        <router-link to="/technology" exact-active-class="active">03 Technology</router-link>
+       <!-- <router-link to="/destination" exact-active-class="active">01 Destination</router-link>-->
+        <router-link to="/crew" exact-active-class="active">01 Crew</router-link>
+        <router-link to="/technology" exact-active-class="active">02 Technology</router-link>
       </div>
     </nav>
 
